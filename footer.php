@@ -1,7 +1,19 @@
 <footer>
-    <div class="flex px-4 py-2 justify-between items-center h-20 bg-blue-200">
-        <a href="#"> IIIT-D</a>
-        <a href="#"> Health Portal at IIIT-D</a>
-        <a href="#"> Raghava's Lab</a>
+    <div class="flex px-4 py-2 justify-between items-center h-20 bg-gray-100">
+        <a href="#" class="hover:underline"> IIIT-D</a>
+        <a href="#" class="hover:underline"> Health Portal at IIIT-D</a>
+        <a href="#" class="hover:underline"> Raghava's Lab</a>
     </div>
 </footer>
+<script >
+
+
+const btn = document.querySelector("button.mobile-nav-btn");
+const menu = document.querySelector(".mobile-nav");
+
+
+btn.addEventListener("click", () => {
+  menu.classList.toggle("hidden");
+  console.log("clicked");
+});
+</script>
