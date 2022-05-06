@@ -1,4 +1,5 @@
 <?php include("header.php"); ?>
+<<<<<<< HEAD
 <h1>Welcome To Help Page Of RotavirusPred</h1>
 <p>This web server has been designed to help the scientific community in vaccine design and development. This server predicts zoonotic hosts of Rotavirus A virus from Genome Sequences.
 
