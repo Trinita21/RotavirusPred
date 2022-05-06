@@ -5,11 +5,11 @@
         <h1>Welcome to the predict page!</h1>
         <p>This is the predict page for the RotaPred website.</p>
     </div>
-    <div class="flex flex-col justify-center items-center text-2xl">
+    <div class="flex flex-col justify-center items-center text-lg">
       <h1 >
         
       </h1>
-      <form action="" class="px-2 flex flex-col items-center lg:w-2/4">
+      <form action="" class="px-2 flex flex-col items-center lg:w-3/4">
           <label for="" class="text-4xl mb-4 px-2 text-center">Enter a protein sequence to predict</label>
         <textarea
           class="py-4 px-2 my-2 w-full border border-black rounded-md shadow"
