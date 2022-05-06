@@ -1,6 +1,6 @@
 <?php include("header.php"); ?>
 
-<div class="text-center py-4 mx-auto">
+<main class="grow text-center py-4 mx-auto">
     <div>
         <h1>Welcome to the predict page!</h1>
         <p>This is the predict page for the RotaPred website.</p>
@@ -42,7 +42,7 @@
     </div>
 
 
-</div>
+</main>
 <?php include("footer.php"); ?>
 </body>
 </html>

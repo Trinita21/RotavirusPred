@@ -7,7 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>RotaPred</title>
   </head>
-  <body class="min-h-screen text-lg">
+  <body class="min-h-screen text-lg flex flex-col">
     <nav class="flex px-4 py-2 justify-between items-center h-20 bg-blue-200">
       <p class="text-2xl">RotaPred</p>
       <div class="space-x-2">
