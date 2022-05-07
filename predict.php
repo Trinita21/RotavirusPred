@@ -1,24 +1,25 @@
 <?php include("header.php"); ?>
 
-<main class="grow text-center py-4 mx-auto">
-    <div>
-        <h1>Welcome to the predict page!</h1>
-        <p>This is the predict page for the RotaPred website.</p>
-    </div>
+<main class="grow mt-14 py-4 text-center mx-auto w-full">
     <div class="flex flex-col justify-center items-center text-lg">
-      <h1 >
-        
-      </h1>
-      <form action="" class="px-2 flex flex-col items-center lg:w-3/4">
-          <label for="" class="text-4xl mb-4 px-2 text-center">Enter a protein sequence to predict</label>
+      <div class="text-xl my-4">
+      <h1 class="text-2xl md:text-3xl">Welcome to the predict page!</h1>
+        <p>This is the predict page for the RotaPred website.</p>
+      </div>
+    
+      <form action="" class="px-2 flex flex-col items-start">
+          <label for="" class="text-2xl mb-2 pr-2 text-left">Enter a protein sequence to predict</label>
         <textarea
           class="py-4 px-2 my-2 w-full border border-black rounded-md shadow"
           type="text"
           placeholder="Enter a sequence"
         ></textarea>
-        <label for="" class="text-4xl mb-4 px-2 text-center">Or Choose a File</label>
-        <input type="file" name="" id="">
-        <div>
+        <div class="flex flex-wrap md:flex-nowrap justify-center">
+          <label for="" class="text-2xl mb-4 pr-2 text-left">Or Choose a File</label>
+          <input type="file" name="" id="">
+        </div>
+        
+        <div class="flex flex-wrap md:flex-nowrap justify-center items-center md:w-full">
         <button
           type="reset"
           class="border-2 border-gray-800 bg-gray-900 text-white mt-4 mx-2 py-2 px-3 rounded hover:bg-indigo-700"

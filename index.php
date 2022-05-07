@@ -1,6 +1,6 @@
 <?php include("header.php"); ?>
    
- <main class="grow">
+ <main class="grow mt-14 py-4 ">
 <h1> Welcome to RotavirusPred</h1>
 <p>A webserver to predict hosts of Rotavirus A</p>
 <p>FluSPred(Flu Spread Prediction) is a machine learning based tool to predict the zoonotic host tropism of the Influenza A virus with the help of its protein and genome sequences, stating whether a viral strain has the potential to infect human hosts. This was developed to help prioritize high-risk viral strains for future research, aid the study of emergence or the risk a novel influenza virus possesses if it acquires the capability to spread human to human.</p>

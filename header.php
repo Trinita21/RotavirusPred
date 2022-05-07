@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
     <title>RotaVirusPred</title>
   </head>
-  <body class="min-h-screen text-lg flex flex-col">
-    <nav class="bg-gray-100">
+  <body class="min-h-screen text-lg flex flex-col relative">
+    <nav class="bg-gray-100 shadow-md fixed top-0 left-0 right-0">
       <div class="max-w-6xl mx-auto px-4">
         <div class="flex justify-between">
           <div class="flex">
