@@ -5,17 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style/style.css">
     <title>RotaVirusPred</title>
   </head>
-  <body class="min-h-screen text-lg flex flex-col relative">
-    <nav class="bg-gray-100 shadow-md fixed top-0 left-0 right-0">
-      <div class="max-w-6xl mx-auto px-4">
-        <div class="flex justify-between">
+  <body class="min-h-screen text-lg flex flex-col justify-center relative">
+    <nav class="bg-gray-100 shadow-md fixed top-0 left-0 right-0 ">
+      <div class="max-w-6xl mx-auto px-4 ">
+        <div class="flex justify-between items-center h-20">
           <div class="flex">
             <!-- logo -->
             <div>
-              <a href="#" class="flex py-4">
+              <a href="./index.php" class="flex py-4">
                 <span class="px-2 font-bold"> RotaVirusPred </span>
               </a>
             </div>
